@@ -1,0 +1,7 @@
+services:
+  tube:
+    image: yadomi/hrules
+    user: 1000:1000
+    restart: unless-stopped
+    volumes:
+      - ./config:/app/config/
