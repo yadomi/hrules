@@ -1,0 +1,6 @@
+{
+    "tasks": {
+        "lock": "deno cache --lock=deno.lock --lock-write main.ts",
+        "build": "docker build -t yadomi/hrules ."
+    }
+}
